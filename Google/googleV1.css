@@ -1,0 +1,54 @@
+/* Global seçici */
+* {
+  margin: 0;
+  font-size: medium;
+}
+/* Google image sayfanın ortasında koymak için */
+img {
+  margin: 0 auto;
+  display: block;
+}
+/* Birinci  konteyner için   */
+.container1 {
+  background-color: #eeeeee;
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+}
+/*  İkinici  konteyner için */
+.container2 {
+  background-color: white;
+  margin: 5px auto;
+  width: 85%;
+  height: 95px;
+}
+/*  */
+.content {
+  padding-top: 13px;
+  float: left;
+  background-color: #70ccc2;
+  width: 40%;
+  height: 90px;
+  text-align: center;
+}
+/*  */
+.content2 {
+  padding-top: 13px;
+  float: left;
+  background-color: #70ccc2;
+  margin: 0px 5px;
+  width: 19%;
+  height: 90px;
+  text-align: center;
+}
+/* Telif hakları */
+.footer {
+  text-align: center;
+  font-size: smal;
+  margin: 20px 0px;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+}
