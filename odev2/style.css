@@ -1,0 +1,108 @@
+*{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1{
+  color: rgb(223, 62, 62);
+  font-style: italic;
+  box-shadow: 10px 10px 5px grey;
+  background-color: rgb(253, 251, 248);
+  text-shadow: 2px 2px 8px #9a5fddc5;
+  margin-left: 15px ;
+  margin-right: 15px ;
+}
+h2{
+  color: blueviolet;
+ border-bottom: 3px solid rgba(162, 0, 255, 0.151);
+ border-top: 3px solid rgba(162, 0, 255, 0.151);
+ border-radius: 30%;
+ background-color: rgba(222, 184, 135, 0.527);
+ font-style: italic;
+ margin: 20px 20%;
+}
+.container ul{
+width: 40%;
+height: 20px;
+margin: auto;
+}
+.container li{
+ list-style-type: none;
+ display: inline-block;
+ margin-right: 35px;
+ font-weight: 600;
+}
+.muzik-container{
+  list-style-position: inside;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(253, 251, 248);
+  border-top: 3px dashed    rgba(162, 0, 255, 0.151);
+  border-bottom: 3px dashed    rgba(162, 0, 255, 0.151);
+  border-radius: 80px;
+
+}
+.muzik-container li{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  padding: 2px 0px;
+}
+h3{
+  color: rgb(148, 100, 38);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+h3~ul{
+  list-style-position: inside;
+}
+.urun-container
+{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+
+}
+.top-container
+{
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+.bottom-container{
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+.urun{ 
+  width: 35%;
+  margin: 20px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+ 
+}
+.urun:hover{
+  box-shadow: 10px 10px 5px grey;
+}
+.urun-img{
+  height: 70%;
+  width: 100%;
+  border-bottom: 2px solid black;
+  border-radius: 25px;
+
+}
+.urun-p{
+  padding: 3px;
+  margin: 2px;
+}
+.urun-fiyati{
+  font-weight: 700;
+  color: crimson;
+  font-style: italic;
+  font-size: 18px;
+  margin: 2px;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+.about-us > * {
+  text-align: left;
+  margin: 15px 50px;
+}
